@@ -58,7 +58,7 @@ public class Actualizar extends HttpServlet {
 			 String instruccionSQL = "UPDATE INVENTARIO SET ELEMENTO='"+elemento+"', SERIAL='"+serial+"', PARTE='"+parte+"', ESTADO='"+estado+"', UBICACION='"+ubicacion+"' WHERE ID='"+id+"'";
 			 miStatement.executeUpdate(instruccionSQL);
 			 
-			 System.out.println("Se editó un registro");
+			 System.out.println("Se editÃ³ un registro");
 			}
 		catch(Exception e) {
 				System.out.println("No conecta");
@@ -68,3 +68,4 @@ public class Actualizar extends HttpServlet {
 	}
 
 }
+

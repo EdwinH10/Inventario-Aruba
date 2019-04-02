@@ -44,7 +44,7 @@ public class Consulta extends HttpServlet {
 			List<Elemento> inventario = new ArrayList<>();
 			Elemento e;
 			
-			 while(miResultSet.next()) {				//se indica nombre de columna o npumero de índice
+			 while(miResultSet.next()) {				//se indica nombre de columna o npumero de Ã­ndice
 				 e = new Elemento();
 				 e.setId(miResultSet.getString("id"));
 				 e.setNombre(miResultSet.getString("elemento"));
@@ -72,3 +72,4 @@ public class Consulta extends HttpServlet {
 	}
 
 }
+

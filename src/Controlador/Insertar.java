@@ -63,7 +63,7 @@ public class Insertar extends HttpServlet {
 					 					"', '"+serial+"', '"+parte+"', '"+estado+"', '"+ubicacion+"')";
 			 miStatement.executeUpdate(instruccionSQL);
 			 
-			 System.out.println("Se insertó un registro");
+			 System.out.println("Se insertÃ³ un registro");
 			}
 		catch(Exception e) {
 				System.out.println("No conecta");
@@ -75,3 +75,4 @@ public class Insertar extends HttpServlet {
 	
 
 }
+

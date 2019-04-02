@@ -21,7 +21,7 @@
 	<h2>Llena el campo solicitado</h2>
   <form action=${pageContext.request.contextPath}/Eliminar method="post">
     <div class="form-group">
-      <label for="idel">ID del registro a eliminar (lo puedes revisar en la pestaña de Consulta):</label>
+      <label for="idel">ID del registro a eliminar (lo puedes revisar en la pestaÃ±a de Consulta):</label>
       <input type="text" class="form-control" id="idel" placeholder="Ejemplo: 21" name="idel" required>
     </div>
     <button type="submit" class="btn btn-default">Submit</button>

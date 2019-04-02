@@ -19,7 +19,7 @@
 	</nav>
 	
 	<h2>Registro eliminado exitosamente</h2>
-	<p>Puedes corroborarlo en la pestaña de consulta </p>
+	<p>Puedes corroborarlo en la pestaÃ±a de consulta </p>
   
 
   

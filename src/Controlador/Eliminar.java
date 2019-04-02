@@ -48,7 +48,7 @@ public class Eliminar extends HttpServlet {
 			 String instruccionSQL = "DELETE FROM INVENTARIO WHERE ID='"+id+"'";
 			 miStatement.executeUpdate(instruccionSQL);
 			 
-			 System.out.println("Se eliminó un registro");
+			 System.out.println("Se eliminÃ³ un registro");
 			}
 		catch(Exception e) {
 				System.out.println("No conecta");
@@ -58,3 +58,4 @@ public class Eliminar extends HttpServlet {
 	}
 
 }
+

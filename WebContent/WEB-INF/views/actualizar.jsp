@@ -21,7 +21,7 @@
 	<h2>Llena los campos solicitados</h2>
   <form action=${pageContext.request.contextPath}/Actualizar method="post">
     <div class="form-group">
-      <label for="idac">ID del registro a actualizar (lo puedes revisar en la pestaña de Consulta):</label>
+      <label for="idac">ID del registro a actualizar (lo puedes revisar en la pestaÃ±a de Consulta):</label>
       <input type="text" class="form-control" id="idac" placeholder="Ejemplo: 10" name="idac" required>
     </div>
     <div class="form-group">
